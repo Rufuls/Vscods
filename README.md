@@ -1,27 +1,30 @@
-# Task-It - Prova de Conceito (Grupo 45)
+# Task-It - Grupo 45 (Projeto Integrador 4º semestre)
 
-## Integrantes
-- Gustavo Pedroza Aciole Bonfim  
-- Maria Eduarda Ferreira dos Santos  
-- Carlos Augusto Barnabe Alves  
-- Guilherme Barbosa Alves  
+Integrantes
+- Gustavo Pedroza Aciole Bonfim
+- Maria Eduarda Ferreira dos Santos
+- Carlos Augusto Barnabe Alves
+- Guilherme Barbosa Alves
 
-## Prova de Conceito
-**Jornada da Emília Lima (Estudante de Direito):**  
-Criar tarefas → Marcar como feitas → Ver sequência de dias com feedback visual.
 
-## Tecnologias
-- **Frontend**: React Native (Expo)
-- **Backend**: Node.js + Express
-- **Banco**: SQLite (armazenamento local)
+Jornada da persona **Emília Lima** (estudante):  
+Criar tarefas → Marcar como feitas → Ver sequência de dias.
 
----
 
-## Como Rodar
+- Frontend: React Native (Expo)
+- Backend: Node.js + Express
+- Banco: SQLite (armazenamento local)
 
-### Backend
-```bash
-cd backend
-npm init -y
-npm install express sqlite3 cors
-node server.js
+
+1. Backend: `cd backend && npm install && node server.js`
+2. Frontend: `cd frontend && expo start` → escanear QR code com Expo Go
+3. Trocar IP em App.js para o seu IP local
+
+
+- [x] Adicionar tarefa
+- [x] Marcar/desmarcar como feita
+- [x] Feedback visual de sequência de dias
+- [x] Tudo salva no banco SQLite
+
+
+
